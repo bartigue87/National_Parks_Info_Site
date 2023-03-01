@@ -30,6 +30,10 @@ router.post("/", async (req, res) => {
     dateEstablished: req.body.dateEstablished,
     description: req.body.description,
     imgUrl: [req.body.imgUrl],
+    funFact: req.body.funFact,
+    rank: req.body.rank,
+    todo: [req.body.todo],
+    animal: req.body.animal,
   });
   try {
     const savedPark = await park.save();
@@ -44,7 +48,14 @@ router.patch("/:parkId", async (req, res) => {
   try {
     const updatedPark = await Park.updateOne(
       { _id: req.params.parkId },
-      { $set: { imgUrl: req.body.imgUrl } }
+      {
+        $set: {
+          funFact: req.body.funFact,
+          animal: req.body.animal,
+          rank: req.body.rank,
+          todo: req.body.todo,
+        },
+      }
     );
     res.json(updatedPark);
   } catch (err) {
