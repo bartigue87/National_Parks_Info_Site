@@ -1,11 +1,14 @@
 .park-container {
   position: relative;
-  background-color: #2b3844;
+  background-color: #3d5c71;
   min-width: 264px;
+  max-width: 750px;
   display: flex;
   flex-direction: column;
   text-align: left;
   height: 400px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .park-img {
@@ -18,10 +21,10 @@
 }
 
 .transparent-click {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: transparent;
+  background-color: initial;
   cursor: pointer;
+  height: 100%;
+  position: absolute;
+  width: 90%;
   z-index: 2;
 }

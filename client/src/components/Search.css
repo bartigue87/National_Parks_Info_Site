@@ -1,0 +1,154 @@
+.search-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.searchbar {
+  position: relative;
+  left: 80px;
+  width: 480px;
+  height: 56px;
+  background-color: #3d5c71;
+  display: flex;
+  align-items: center;
+}
+
+.searchbar > img {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  left: 32px;
+}
+
+.searchbar > input {
+  background-color: #3d5c71;
+  border: none;
+  position: relative;
+  left: 54px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  width: 300px;
+  outline: none;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.select-box {
+  display: flex;
+  width: 200px;
+  height: 56px;
+  flex-direction: column;
+  position: relative;
+  right: 80px;
+}
+
+.options-container {
+  background-color: #3d5c71;
+  max-height: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 5px;
+  overflow: hidden;
+  order: 1;
+  position: absolute;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  z-index: 3;
+}
+
+.selected {
+  background-color: #3d5c71;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  position: relative;
+  order: 0;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.selected::after {
+  content: "";
+  background: url("../images/white-arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 18px;
+  right: 10px;
+  top: 15px;
+  transition: all 0.4s;
+}
+
+.options-container.active {
+  max-height: 364px;
+  opacity: 1;
+  overflow-y: scroll;
+  position: absolute;
+  top: 48px;
+  border: solid #d8dddf 1px;
+}
+
+.options-container.active + .selected::after {
+  transform: rotateX(180deg);
+  top: -12px;
+}
+
+.select-box .option,
+.selected {
+  padding: 12px 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.option:hover {
+  background-color: #292828;
+}
+
+.select-box label {
+  cursor: pointer;
+}
+
+.radio {
+  display: none;
+}
+
+label {
+  z-index: -1;
+}
+
+@media only screen and (max-width: 850px) {
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .searchbar {
+    left: 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .select-box {
+    left: 0;
+    margin: 0 auto;
+  }
+  .searchbar > input {
+    width: 175px;
+  }
+}

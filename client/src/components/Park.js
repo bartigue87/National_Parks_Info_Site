@@ -9,7 +9,8 @@ export default function Park(props) {
         style={{ backgroundImage: `url(${props.imgUrl[0]})` }}
         alt={`${props.name} national park`}
       ></div>
-      <h3>{props.name}</h3>
+      <h3>{props.name} National Park</h3>
+      <p>{props.location}</p>
       <div id={props.name} className="transparent-click"></div>
     </div>
   );

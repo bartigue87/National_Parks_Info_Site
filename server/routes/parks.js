@@ -50,6 +50,10 @@ router.patch("/:parkId", async (req, res) => {
       { _id: req.params.parkId },
       {
         $set: {
+          name: req.body.name,
+          location: req.body.location,
+          dateEstablished: req.body.dateEstablished,
+          description: req.body.description,
           funFact: req.body.funFact,
           animal: req.body.animal,
           rank: req.body.rank,
