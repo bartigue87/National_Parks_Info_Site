@@ -1,0 +1,25 @@
+h1 {
+  color: #fff;
+  margin-left: 80px;
+}
+
+.header-container {
+  width: 100%;
+  background-color: #3d5c71;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+
+.game-btn {
+  right: 80px;
+  position: relative;
+  height: 50px;
+  width: 130px;
+  background: transparent;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}

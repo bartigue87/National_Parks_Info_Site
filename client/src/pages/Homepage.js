@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Header from "../components/Header";
 import Park from "../components/Park";
 import Search from "../components/Search";
 import "./Homepage.css";
@@ -34,6 +35,7 @@ export default function Homepage() {
 
   return (
     <>
+      <Header />
       <Search filterLocation={checkLocation} checkSearch={checkQuery} />
       <div className="parks-container">{parks}</div>
     </>
