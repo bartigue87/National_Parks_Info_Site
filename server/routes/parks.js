@@ -34,6 +34,7 @@ router.post("/", async (req, res) => {
     rank: req.body.rank,
     todo: [req.body.todo],
     animal: req.body.animal,
+    enviro: req.body.enviro,
   });
   try {
     const savedPark = await park.save();
@@ -58,6 +59,7 @@ router.patch("/:parkId", async (req, res) => {
           animal: req.body.animal,
           rank: req.body.rank,
           todo: req.body.todo,
+          enviro: req.body.enviro,
         },
       }
     );

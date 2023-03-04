@@ -5,6 +5,7 @@ import backArrow from "../images/back-arrow.png";
 
 export default function ParkPage() {
   const [parkData, setParkData] = useState();
+  const [bgColor, setBgColor] = useState("");
   const navigate = useNavigate();
 
   const parkId = useParams().pid;
@@ -38,10 +39,17 @@ export default function ParkPage() {
   function returnHome(event) {
     navigate(`/`, { replace: true });
   }
+  useEffect(() => {
+    if (parkData) {
+      setBgColor(parkData.enviro);
+    }
+  }, [parkData]);
+
+  console.log(bgColor);
 
   return (
-    <div className={`single-park-container ${parkData.type}-main-bg`}>
-      <div className={`back-btn ${parkData.type}-sec-bg`} onClick={returnHome}>
+    <div className={`single-park-container ${bgColor}-main-bg`}>
+      <div className={`back-btn ${bgColor}-sec-bg`} onClick={returnHome}>
         <img src={backArrow} alt="back arrow" />
         <p>Back</p>
       </div>
@@ -63,7 +71,7 @@ export default function ParkPage() {
             </div>
             <ol>Things to do: {thingsToDo}</ol>
           </div>
-          <div className={`sidenote ${parkData.type}-sec-bg`}>
+          <div className={`sidenote ${bgColor}-sec-bg`}>
             <p>{`America's ${parkData.rank} National Park`}</p>
             <p>
               <strong>Did You Know?:</strong>

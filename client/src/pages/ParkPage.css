@@ -1,62 +1,61 @@
 .water-main-bg {
-  background-color: ;
+  background-color: #3d5c71;
 }
 
 .water-sec-bg {
-  background-color: ;
+  background-color: #c76d51;
 }
 .cave-main-bg {
-  background-color: ;
+  background-color: #0a1925;
 }
 
 .cave-sec-bg {
-  background-color: ;
+  background-color: #88be54;
 }
 .arctic-main-bg {
-  background-color: ;
+  background-color: #54696d;
 }
 
 .arctic-sec-bg {
-  background-color: ;
+  background-color: #74bcc5;
 }
 .desert-main-bg {
-  background-color: ;
+  background-color: #be342e;
 }
 
 .desert-sec-bg {
-  background-color: ;
+  background-color: #283927;
 }
 .mountain-main-bg {
-  background-color: ;
+  background-color: #052749;
 }
 
 .mountain-sec-bg {
-  background-color: ;
+  background-color: #5a3b1a;
 }
 .jungle-main-bg {
-  background-color: ;
+  background-color: #04582d;
 }
 
 .jungle-sec-bg {
-  background-color: ;
+  background-color: #111724;
 }
 .forest-main-bg {
-  background-color: ;
+  background-color: #4b2b12;
 }
 
 .forest-sec-bg {
-  background-color: ;
+  background-color: #24402f;
 }
 .wasteland-main-bg {
-  background-color: ;
+  background-color: #353d46;
 }
 
 .wasteland-sec-bg {
-  background-color: ;
+  background-color: #8a95a8;
 }
 
 .single-park-container {
-  background-color: #4b2b12;
   width: 100%;
   padding: 40px 0;
   font-size: 18px;
@@ -76,7 +75,6 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 20px;
-  background-color: #24402f;
   gap: 10px;
   border-radius: 5px;
   cursor: pointer;
@@ -137,12 +135,6 @@ ol {
   align-items: center;
   justify-content: space-between;
   gap: 50px;
-  background-color: #24402f;
-  border-left: 5px #4b2b12;
-  border-right: 5px #4b2b12;
-  border-top: 0;
-  border-bottom: 0;
-  border-style: dotted;
 }
 
 .sidenote > p {

@@ -10,6 +10,7 @@ const ParkSchema = mongoose.Schema({
   rank: { type: String },
   todo: [{ type: String }],
   animal: { type: String },
+  enviro: { type: String },
 });
 
 module.exports = mongoose.model("Parks", ParkSchema);
