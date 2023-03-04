@@ -9,7 +9,8 @@ export default function Homepage() {
   const [filteredParkList, setFilteredParkList] = useState("");
   const [query, setQuery] = useState("");
 
-  const API_BASE = "http://localhost:3000/Parks";
+  const API_BASE = `${process.env.REACT_APP_BACKEND_URL}/parks`;
+  console.log(API_BASE);
 
   useEffect(() => {
     fetch(API_BASE)

@@ -9,7 +9,7 @@ export default function ParkPage() {
   const navigate = useNavigate();
 
   const parkId = useParams().pid;
-  const API_BASE = `http://localhost:3000/Parks/${parkId}`;
+  const API_BASE = `${process.env.REACT_APP_BACKEND_URL}/parks/${parkId}`;
 
   useEffect(() => {
     fetch(API_BASE)
