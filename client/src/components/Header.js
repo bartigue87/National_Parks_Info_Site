@@ -12,7 +12,7 @@ export default function Header() {
     <div className="header-container">
       <h1>National Park Info Site</h1>
       <button className="game-btn" onClick={openMap}>
-        Map
+        View Map
       </button>
     </div>
   );

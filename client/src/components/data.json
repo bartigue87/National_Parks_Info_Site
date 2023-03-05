@@ -438,7 +438,7 @@
       "id": 331,
       "properties": {
         "Code": "GRSA",
-        "Name": "Great Sand Dunes National Park & Preserve"
+        "Name": "Great Sand Dunes National Park"
       },
       "geometry": {
         "type": "Point",
@@ -666,7 +666,7 @@
       "id": 355,
       "properties": {
         "Code": "DENA",
-        "Name": "Denali National Park & Preserve"
+        "Name": "Denali National Park"
       },
       "geometry": {
         "type": "Point",
@@ -678,7 +678,7 @@
       "id": 356,
       "properties": {
         "Code": "GAAR",
-        "Name": "Gates Of The Arctic National Park & Preserve"
+        "Name": "Gates Of The Arctic National Park"
       },
       "geometry": {
         "type": "Point",
@@ -690,7 +690,7 @@
       "id": 357,
       "properties": {
         "Code": "GLBA",
-        "Name": "Glacier Bay National Park & Preserve"
+        "Name": "Glacier Bay National Park"
       },
       "geometry": {
         "type": "Point",
@@ -702,7 +702,7 @@
       "id": 358,
       "properties": {
         "Code": "KATM",
-        "Name": "Katmai National Park & Preserve"
+        "Name": "Katmai National Park"
       },
       "geometry": {
         "type": "Point",
@@ -738,7 +738,7 @@
       "id": 361,
       "properties": {
         "Code": "LACL",
-        "Name": "Lake Clark National Park & Preserve"
+        "Name": "Lake Clark National Park"
       },
       "geometry": {
         "type": "Point",
@@ -750,7 +750,7 @@
       "id": 363,
       "properties": {
         "Code": "WRST",
-        "Name": "Wrangell - St Elias National Park & Preserve"
+        "Name": "Wrangell - St Elias National Park"
       },
       "geometry": {
         "type": "Point",
