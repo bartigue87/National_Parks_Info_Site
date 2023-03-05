@@ -39,6 +39,7 @@ export default function ParkPage() {
   function returnHome(event) {
     navigate(`/`, { replace: true });
   }
+
   useEffect(() => {
     if (parkData) {
       setBgColor(parkData.enviro);

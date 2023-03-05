@@ -1,0 +1,761 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 182,
+      "properties": {
+        "Code": "NPSA",
+        "Name": "National Park of American Samoa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-169.45380760526996, -14.239727732693918]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 188,
+      "properties": {
+        "Code": "VIIS",
+        "Name": "Virgin Islands National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-64.77111048899694, 18.353798617233704]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 206,
+      "properties": {
+        "Code": "HOSP",
+        "Name": "Hot Springs National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.08972185108273, 34.51113822506357]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 250,
+      "properties": {
+        "Code": "ACAD",
+        "Name": "Acadia National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.24411197733804, 44.350751388328206]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 260,
+      "properties": {
+        "Code": "HALE",
+        "Name": "Haleakala National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-156.14709314319208, 20.704512129332194]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 264,
+      "properties": {
+        "Code": "CONG",
+        "Name": "Congaree National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.81835232616444, 33.8062043146765]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 265,
+      "properties": {
+        "Code": "BLCA",
+        "Name": "Black Canyon Of The Gunnison National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-107.72398016641485, 38.577392252894334]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268,
+      "properties": {
+        "Code": "CUVA",
+        "Name": "Cuyahoga Valley National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.5690344075238, 41.26071335500069]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 269,
+      "properties": {
+        "Code": "CAVE",
+        "Name": "Carlsbad Caverns National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.52776563457927, 32.15234275399143]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 270,
+      "properties": {
+        "Code": "HAVO",
+        "Name": "Hawaii Volcanoes National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-155.2118228719388, 19.32614215615518]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 274,
+      "properties": {
+        "Code": "MACA",
+        "Name": "Mammoth Cave National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.13090198191068, 37.197604576779035]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 284,
+      "properties": {
+        "Code": "CRLA",
+        "Name": "Crater Lake National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.13525870459277, 42.94443605194011]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 288,
+      "properties": {
+        "Code": "EVER",
+        "Name": "Everglades National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.95349638622787, 25.27225616404826]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 290,
+      "properties": {
+        "Code": "GRCA",
+        "Name": "Grand Canyon National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.19586332050201, 36.186683141213514]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 291,
+      "properties": {
+        "Code": "GRSM",
+        "Name": "Great Smoky Mountains National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.77104780772574, 35.53381126341195]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 293,
+      "properties": {
+        "Code": "ISRO",
+        "Name": "Isle Royale National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.10441847731086, 47.900839582369585]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 297,
+      "properties": {
+        "Code": "MORA",
+        "Name": "Mount Rainier National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.70574507946985, 46.86055919903173]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 299,
+      "properties": {
+        "Code": "NOCA",
+        "Name": "North Cascades National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.34755778363238, 48.83303940981537]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 300,
+      "properties": {
+        "Code": "OLYM",
+        "Name": "Olympic National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-123.6194451629227, 47.79453520449651]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 301,
+      "properties": {
+        "Code": "ROMO",
+        "Name": "Rocky Mountain National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.69838532231373, 40.35579839722149]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 303,
+      "properties": {
+        "Code": "SAGU",
+        "Name": "Saguaro National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-110.60831406159426, 32.178836085393556]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 305,
+      "properties": {
+        "Code": "SHEN",
+        "Name": "Shenandoah National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.67619962877342, 38.28108210674896]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 307,
+      "properties": {
+        "Code": "GLAC",
+        "Name": "Glacier National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-113.80079159548487, 48.68426876066877]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 313,
+      "properties": {
+        "Code": "ARCH",
+        "Name": "Arches National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-109.59545602760868, 38.707917632251544]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 314,
+      "properties": {
+        "Code": "VOYA",
+        "Name": "Voyageurs National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.98057129969759, 48.51716932219992]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 315,
+      "properties": {
+        "Code": "THRO",
+        "Name": "Theodore Roosevelt National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-103.45925080636415, 46.953620966658086]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 317,
+      "properties": {
+        "Code": "DRTO",
+        "Name": "Dry Tortugas National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.86655423155601, 24.654395618647623]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 319,
+      "properties": {
+        "Code": "BRCA",
+        "Name": "Bryce Canyon National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.18266888744083, 37.58399143875251]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 321,
+      "properties": {
+        "Code": "YELL",
+        "Name": "Yellowstone National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-110.49008302275851, 44.583032217213656]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 323,
+      "properties": {
+        "Code": "GRTE",
+        "Name": "Grand Teton National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-110.70546656038158, 43.81853565368195]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 325,
+      "properties": {
+        "Code": "BADL",
+        "Name": "Badlands National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-102.39394509554067, 43.8340624087368]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 326,
+      "properties": {
+        "Code": "ZION",
+        "Name": "Zion National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.95443162869537, 37.255709497131065]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 327,
+      "properties": {
+        "Code": "MEVE",
+        "Name": "Mesa Verde National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-108.50092888589481, 37.22351315320654]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 328,
+      "properties": {
+        "Code": "GRBA",
+        "Name": "Great Basin National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-114.25797817448695, 38.946173783127065]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 329,
+      "properties": {
+        "Code": "CARE",
+        "Name": "Capitol Reef National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.00329294577273, 37.795992535017426]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 330,
+      "properties": {
+        "Code": "CANY",
+        "Name": "Canyonlands National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-109.88314625527481, 38.272072876214835]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 331,
+      "properties": {
+        "Code": "GRSA",
+        "Name": "Great Sand Dunes National Park & Preserve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.57832630519154, 37.759942701007226]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 332,
+      "properties": {
+        "Code": "LAVO",
+        "Name": "Lassen Volcanic National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.41212664904383, 40.48622026090819]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 334,
+      "properties": {
+        "Code": "PEFO",
+        "Name": "Petrified Forest National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-109.67471774572405, 34.98868180401879]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 335,
+      "properties": {
+        "Code": "BISC",
+        "Name": "Biscayne National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.21830159269447, 25.469689246647114]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 336,
+      "properties": {
+        "Code": "GUMO",
+        "Name": "Guadalupe Mountains National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.88434717034703, 31.923384209391674]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 337,
+      "properties": {
+        "Code": "WICA",
+        "Name": "Wind Cave National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-103.42877641689412, 43.60787178123641]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 339,
+      "properties": {
+        "Code": "BIBE",
+        "Name": "Big Bend National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-103.22978967302261, 29.298177668897967]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 341,
+      "properties": {
+        "Code": "DEVA",
+        "Name": "Death Valley National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.13511154435771, 36.48741910067162]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 342,
+      "properties": {
+        "Code": "REDW",
+        "Name": "Redwood National and State Parks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-124.00482968014182, 41.27702956462916]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 241,
+      "properties": {
+        "Code": "INDU",
+        "Name": "Indiana Dunes National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.03241529098068, 41.661457848148025]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 277,
+      "properties": {
+        "Code": "PINN",
+        "Name": "Pinnacles National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.18110088326603, 36.4901310064952]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 225,
+      "properties": {
+        "Code": "GATE",
+        "Name": "Gateway Arch National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.624964876522704, -90.18557767581115]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 318,
+      "properties": {
+        "Code": "WHSA",
+        "Name": "White Sands National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.33507223593554, 32.779133376019175]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 263,
+      "properties": {
+        "Code": "NERI",
+        "Name": "New River Gorge National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.9897043635666, 37.84026693367752]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 344,
+      "properties": {
+        "Code": "YOSE",
+        "Name": "Yosemite National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.55600729459782, 37.84893656911814]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 347,
+      "properties": {
+        "Code": "KICA",
+        "Name": "Kings Canyon National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.59384064032848, 36.8749421087923]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 348,
+      "properties": {
+        "Code": "JOTR",
+        "Name": "Joshua Tree National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-116.15907084356105, 33.98096522850808]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 350,
+      "properties": {
+        "Code": "SEKI",
+        "Name": "Sequoia National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.5752011004094, 36.50785282265928]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 351,
+      "properties": {
+        "Code": "CHIS",
+        "Name": "Channel Islands National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.7251698451474, 34.00392978229205]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 355,
+      "properties": {
+        "Code": "DENA",
+        "Name": "Denali National Park & Preserve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-151.05263550282112, 63.29777436004586]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 356,
+      "properties": {
+        "Code": "GAAR",
+        "Name": "Gates Of The Arctic National Park & Preserve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-153.26413231698794, 67.9192854407937]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 357,
+      "properties": {
+        "Code": "GLBA",
+        "Name": "Glacier Bay National Park & Preserve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-136.84071732838277, 58.80086474447531]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 358,
+      "properties": {
+        "Code": "KATM",
+        "Name": "Katmai National Park & Preserve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-155.01341050350874, 58.622573966764584]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 359,
+      "properties": {
+        "Code": "KEFJ",
+        "Name": "Kenai Fjords National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-149.88152448868524, 59.95389688763184]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 360,
+      "properties": {
+        "Code": "KOVA",
+        "Name": "Kobuk Valley National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-159.06308334658615, 67.28263652770183]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 361,
+      "properties": {
+        "Code": "LACL",
+        "Name": "Lake Clark National Park & Preserve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-153.6018441528228, 60.64679690935658]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 363,
+      "properties": {
+        "Code": "WRST",
+        "Name": "Wrangell - St Elias National Park & Preserve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-142.60357111369407, 61.41843937955613]
+      }
+    }
+  ]
+}

@@ -58,6 +58,7 @@ router.patch("/:parkId", async (req, res) => {
           funFact: req.body.funFact,
           animal: req.body.animal,
           rank: req.body.rank,
+          imgUrl: req.body.imgUrl,
           todo: req.body.todo,
           enviro: req.body.enviro,
         },

@@ -146,6 +146,9 @@ ol {
   .info-todo-container {
     flex-direction: column;
     height: 100%;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .sidenote {
     flex-direction: column;
@@ -161,5 +164,19 @@ ol {
   .park-image {
     width: 100%;
     margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .back-btn {
+    left: 30px;
+    top: 0;
+  }
+  .title {
+    width: 80%;
+    margin: 50px auto;
+  }
+  .sidenote {
+    padding: 10px;
   }
 }

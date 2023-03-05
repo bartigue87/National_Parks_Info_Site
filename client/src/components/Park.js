@@ -16,7 +16,7 @@ export default function Park(props) {
         alt={`${props.name} national park`}
       ></div>
       <h3>{props.name} National Park</h3>
-      <p>{props.location}</p>
+      <p className="park-location">{props.location}</p>
       <div
         id={props._id}
         onClick={showPark}
