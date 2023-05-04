@@ -17,12 +17,12 @@ export default function Homepage() {
     fetch(API_BASE)
       .then((res) => res.json())
       .then((data) => setParksData(data))
+      .then(setLoading(false))
       .catch((err) => console.error("Error: ", err));
-    setLoading(false);
   }, [API_BASE]);
 
   const parks = loading ? (
-    <h1>Loading Parks...</h1>
+    <h1 style={{ color: "Black", margin: "0 auto" }}>Loading Parks...</h1>
   ) : (
     parksData
       .filter((park) => park.location.toUpperCase().includes(filteredParkList))
