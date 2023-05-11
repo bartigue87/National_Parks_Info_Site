@@ -16,9 +16,10 @@ export default function Homepage() {
 
   const fetchParks = async () => {
     try {
-      axios.get(API_BASE).then((res) => setParksData(res.data));
+      await axios.get(API_BASE).then((res) => {
+        setParksData(res.data);
+      });
       setLoading(false);
-      console.log(loading);
     } catch (e) {
       console.log(e);
     }
