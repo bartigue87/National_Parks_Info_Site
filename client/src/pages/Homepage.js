@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
 import Park from "../components/Park";
 import Search from "../components/Search";
+import axios from "axios";
 import "./Homepage.css";
 
 export default function Homepage() {
@@ -13,13 +14,19 @@ export default function Homepage() {
   const API_BASE = `${process.env.REACT_APP_BACKEND_URL}/parks`;
   console.log(API_BASE);
 
+  const fetchParks = async () => {
+    try {
+      axios.get(API_BASE).then((res) => setParksData(res.data));
+      setLoading(false);
+      console.log(loading);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
   useEffect(() => {
-    fetch(API_BASE)
-      .then((res) => res.json())
-      .then((data) => setParksData(data))
-      .then(setLoading(false))
-      .catch((err) => console.error("Error: ", err));
-  }, [API_BASE]);
+    fetchParks();
+  }, []);
 
   const parks = loading ? (
     <h1 style={{ color: "Black", margin: "0 auto" }}>Loading Parks...</h1>
