@@ -1,19 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import Header from "../components/Header";
 import Park from "../components/Park";
 import Search from "../components/Search";
 import axios from "axios";
 import "./Homepage.css";
 import GuessGame from "../components/GuessGame";
+import { InitialScreenContext } from "../App";
 
 export default function Homepage() {
   const [parksData, setParksData] = useState([]);
   const [filteredParkList, setFilteredParkList] = useState("");
   const [loading, setLoading] = useState(true);
-  const [initialScreen, setInitialScreen] = useState(true);
   const [query, setQuery] = useState("");
 
-  const API_BASE = `${process.env.REACT_APP_BACKEND_URL}/parks?only=name`;
+  const [initialScreen, setInitialScreen] = useContext(InitialScreenContext);
+
+  const API_BASE = `${process.env.REACT_APP_BACKEND_URL}/parks`;
 
   const fetchParks = async () => {
     try {
