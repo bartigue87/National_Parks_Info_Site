@@ -4,12 +4,13 @@ import Park from "../components/Park";
 import Search from "../components/Search";
 import axios from "axios";
 import "./Homepage.css";
+import GuessGame from "../components/GuessGame";
 
 export default function Homepage() {
   const [parksData, setParksData] = useState([]);
   const [filteredParkList, setFilteredParkList] = useState("");
   const [loading, setLoading] = useState(true);
-  const [initialScreen, setInitialScreen] = useState(false);
+  const [initialScreen, setInitialScreen] = useState(true);
   const [query, setQuery] = useState("");
 
   const API_BASE = `${process.env.REACT_APP_BACKEND_URL}/parks?only=name`;
@@ -58,11 +59,32 @@ export default function Homepage() {
     setQuery(searchInput.toLowerCase());
   }
 
+  function handleViewParks() {
+    setInitialScreen(false);
+  }
+
+  let buttonStyle = !initialScreen ? { display: "none" } : { display: "block" };
+
   return (
     <>
       <Header />
-      <Search filterLocation={checkLocation} checkSearch={checkQuery} />
-      <div className="parks-container">{parks}</div>
+      <div>
+        <button
+          onClick={handleViewParks}
+          style={buttonStyle}
+          className="water-sec-bg main-btn"
+        >
+          View Parks
+        </button>
+        {initialScreen ? (
+          <GuessGame />
+        ) : (
+          <>
+            <Search filterLocation={checkLocation} checkSearch={checkQuery} />
+            <div className="parks-container">{parks}</div>
+          </>
+        )}
+      </div>
     </>
   );
 }
